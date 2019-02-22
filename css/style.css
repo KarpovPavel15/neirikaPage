@@ -1,0 +1,371 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+    overflow: visible;
+    font-family: myriad-pro, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+
+}
+
+header{
+    height: 60%;
+    background: url("../images/header.jpg") no-repeat center top / cover;
+
+}
+
+.purple_background{
+    height: 97%;
+    background-color: #141434;
+    opacity: 0.6;
+    border-bottom-right-radius: 90vh 10vh;
+    border-bottom-left-radius: 90vh 10vh;
+}
+
+
+a{
+    color: white;
+    word-break: break-all;
+}
+
+.top_nav-bar{
+    padding: 20px;
+    margin-left: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-data{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_nav_right{
+    margin-right: 1vh;
+}
+
+.numPhone,.pass_button{
+    margin: 25px;
+}
+.user-data2{
+    padding-left: 35vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_call{
+    padding: 7px;
+    margin-left: 4vh;
+    border-radius: 35px;
+    border: none;
+    width: 35vh;
+    height: 7vh;
+    background-color: #ac0042;
+    color: white;
+    font-size: 20px;
+}
+input{
+    margin: 20px;
+    border-radius: 35px;
+    width: 35vh;
+    height: 7vh;
+    opacity: 0.5;
+    border-style: solid ;
+    border-color: gray ;
+    padding-left: 20px;
+}
+
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: myriad-pro, sans-serif;
+}
+
+.border{
+    height: 2px;
+    background-color: white;
+    width: 8vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-title_neirika{
+    font-size: 70px;
+}
+
+.ish_avt{
+    font-size: 45px;
+    padding-bottom: 46px;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/bodypicture.jpg") no-repeat center top / cover;
+    margin-top: 10vh;
+    height: 85vh;
+    width: 100%;
+    border-bottom-right-radius: 140vh 10vh;
+    border:none ;
+
+
+}
+
+.fr_what {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.what_u_have{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.fr_what_items{
+    margin: 5vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p,span{
+    word-break: break-all;
+    color: white;
+    vertical-align:middle;
+    display:table-cell;
+    text-align: center;
+}
+.blue{
+    word-break: break-all;
+    color: #25253a;
+}
+.magazine-img{
+    height: 25vh;
+    width: 45vh;
+    margin-left: 120vh
+}
+.purple{
+    color:#4b3049;
+    word-break: break-all;
+}
+.mgz{
+    margin-top: -15vh;
+    margin-left: 30vh;
+}
+.mc2-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.span_txt{
+    color: #4b3049;
+}
+.magazine{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.what_u_have_purple_back{
+    width: 40vh;
+    height: 40vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background: url("../images/priama6ug.png") no-repeat center top / cover;
+}
+
+.mc5-span,.mc2-span{
+    font-size: 25px;
+}
+.mc5-text,.mc2-text{
+
+}
+.body_text{
+    margin-top: 13vh;
+}
+
+.body_text_white{
+    color:white;
+}
+.body_text_blue{
+    margin-top: 13vh;
+    color:#25253a;
+}
+.body_text_spec{
+    white-space: nowrap;
+    margin-left: 65vh;
+}
+.main_content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.automaton_img{
+    height: 46vh;
+    margin-top: 40px;
+}
+
+.header_auto-call{
+    display: flex;
+    flex-direction: row;
+    align-items: unset;
+    width: 100%;
+}
+.trust-first,
+.trust-second,
+.trust-third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main_content4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5vh;
+}
+.company{
+    height: 75px;
+    padding: 40px;
+}
+.border2{
+    height: 2px;
+    width: 105vh;
+    background-color:gray;
+}
+.span-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.points2{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-right: 140vh;
+}
+.dop_vozm-Neirika{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_content5{
+    background: url("../images/futerpicture3.jpg") no-repeat center top / cover;
+    margin-top: 10vh;
+    height: 130vh;
+    border-top-right-radius: 120vh 8vh;
+    border-top-left-radius: 120vh 8vh;
+    border-bottom-right-radius: 70vh 8vh;
+    border-bottom-left-radius: 70vh 8vh;
+}
+
+.title_neirika{
+    font-size: 100px;
+    color: #ac0042;
+}
+
+.purple_background2{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: #141434;
+    opacity: 0.6;
+    border-top-left-radius: 140vh 10vh;
+    border-top-right-radius: 140vh 10vh;
+    border-bottom-right-radius: 140vh 10vh;
+    border-bottom-left-radius: 140vh 10vh;
+}
+
+.dop_vozm-Neirika_purple_back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: url("../images/priama6ug.png") no-repeat center top / cover;
+    width: 40vh;
+    height: 43vh;
+    padding: 20px;
+}
+
+.revert-call{
+    padding: 10vh;
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: url("../images/pramoug.png") no-repeat center top / cover;
+    width: 95%;
+    padding: 10vh 10vh 5vh 0vh;
+}
+
+.cont-inf{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-right: 40vh;
+}
+.footer-phone,.footer-mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-mail{
+    margin-left: 40px;
+}
+.callElips{
+    margin-right: 5vh;
+}
+
+.messageImg{
+    margin-right: 2vh;
+}
+
+.neirika2{
+    margin-left: 50vh;
+    height: 10vh;
+    width: 25vh
+}
+
+body{
+    background: url("../images/font.png") no-repeat center top / cover;
+}
+.companyS{
+    height: 50px;
+    padding: 50px;
+}
