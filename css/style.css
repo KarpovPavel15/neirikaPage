@@ -119,11 +119,13 @@ input{
 
 .second-title_neirika{
     font-size: 45px;
+    color:white;
 }
 
 .ish_avt{
     font-size: 35px;
     margin-bottom: 25px;
+    color:gray;
 }
 
 .main_content{
@@ -158,11 +160,13 @@ input{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
+    top: 80px;
 }
 
 
 .fr_what_items{
-    margin: 5vh;
+    margin: 2vh;
     width: 30vh;
     display: flex;
     flex-direction: column;
@@ -180,22 +184,51 @@ p,span{
     color: #25253a;
 }
 .magazine-img{
-    height: 25vh;
-    width: 45vh;
-    margin-left: 120vh
+    height: 43vh;
+    width: 55vh;
+    position: relative;
+    margin-left: 120vh;
+    bottom: 210px;
 }
 .purple{
-    color:#4b3049;
+    color:#ab0041;
     word-break: break-all;
 }
+.order_call_fr-what{
+    position: relative;
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 22px;
+    border-radius: 35px;
+    border: none;
+    width: 260px;
+    height: 55px;
+    background-color: #ac0042;
+    color: white;
+    font-size: 20px;
+    top: 65px;
+}
+.order_call_for-relative{
+    position: relative;
+    padding: 7px;
+    top: 100px;
+    margin-left: 22px;
+    border-radius: 35px;
+    border: none;
+    width: 260px;
+    height: 55px;
+    background-color: #ac0042;
+    color: white;
+    font-size: 20px;
+}
 .mgz{
-    margin-top: -15vh;
     margin-left: 30vh;
 }
 .mc2-body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
 }
 .span_txt{
     color: #4b3049;
@@ -229,11 +262,18 @@ p,span{
 
 .body_text_white{
     color:white;
-    padding-top: 50px;
+    top: 75px;
+    position: relative;
 }
+.mc5_text_white{
+    color:white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
 .body_text_blue{
     margin-top: 13vh;
-    color:#25253a;
+    color:#2e1f3b;
 }
 .body_text_spec{
     position: relative;
