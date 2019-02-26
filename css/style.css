@@ -49,6 +49,7 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
 .top_nav_right{
     margin-right: 1vh;
 }
@@ -64,9 +65,7 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.img-For-What{
 
-}
 .spec_order_call{
     padding: 7px;
     border-radius: 35px;
@@ -89,6 +88,7 @@ a{
     color: white;
     font-size: 20px;
 }
+
 input{
     margin: 20px;
     border-radius: 35px;
@@ -99,7 +99,6 @@ input{
     border-color: gray ;
     padding-left: 20px;
 }
-
 
 .header-content{
     display: flex;
@@ -146,8 +145,6 @@ input{
     width: 100%;
     border:none ;
     top:100px;
-
-
 }
 
 .fr_what {
@@ -179,10 +176,12 @@ p,span{
     display:table-cell;
     text-align: center;
 }
+
 .blue{
     word-break: break-all;
     color: #25253a;
 }
+
 .magazine-img{
     height: 43vh;
     width: 55vh;
@@ -190,10 +189,12 @@ p,span{
     margin-left: 120vh;
     bottom: 210px;
 }
+
 .purple{
     color:#ab0041;
     word-break: break-all;
 }
+
 .order_call_fr-what{
     position: relative;
     padding: 7px;
@@ -208,6 +209,7 @@ p,span{
     font-size: 20px;
     top: 65px;
 }
+
 .order_call_for-relative{
     position: relative;
     padding: 7px;
@@ -221,18 +223,22 @@ p,span{
     color: white;
     font-size: 20px;
 }
+
 .mgz{
     margin-left: 30vh;
 }
+
 .mc2-body{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
 }
+
 .span_txt{
     color: #4b3049;
 }
+
 .magazine{
     display: flex;
     flex-direction: row;
@@ -253,9 +259,11 @@ p,span{
 .mc5-span,.mc2-span{
     font-size: 25px;
 }
+
 .mc5-text,.mc2-text{
     text-align: center;
 }
+
 .body_text{
     margin-top: 13vh;
 }
@@ -265,6 +273,7 @@ p,span{
     top: 75px;
     position: relative;
 }
+
 .mc5_text_white{
     color:white;
     padding-top: 40px;
@@ -275,11 +284,13 @@ p,span{
     margin-top: 13vh;
     color:#2e1f3b;
 }
+
 .body_text_spec{
     position: relative;
     margin-top: 160px;
 
 }
+
 .main_content3{
     position: absolute;
     display: flex;
@@ -301,6 +312,7 @@ p,span{
     justify-content: flex-end;
     position: absolute;
 }
+
 .header_auto-call{
     display: flex;
     flex-direction: row;
@@ -308,6 +320,7 @@ p,span{
     width: 100%;
     justify-content: center;
 }
+
 .trust-first,
 .trust-second,
 .trust-third{
@@ -315,21 +328,25 @@ p,span{
     flex-direction: row;
     align-items: center;
 }
+
 .main_content4{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100vh;
 }
+
 .company{
     height: 75px;
     padding: 40px;
 }
+
 .border2{
     height: 2px;
     width: 105vh;
     background-color:gray;
 }
+
 .span-second{
     display: flex;
     flex-direction: row;
@@ -337,12 +354,14 @@ p,span{
     justify-content: space-around;
     margin-top: 5vh;
 }
+
 .points2{
     display: flex;
     flex-direction: row;
     align-items: end;
     margin-right: 140vh;
 }
+
 .dop_vozm-Neirika{
     display: flex;
     flex-direction: row;
@@ -393,6 +412,7 @@ p,span{
 .revert-call{
     padding: 10vh;
 }
+
 .footer-main{
     display: flex;
     flex-direction: row;
@@ -409,6 +429,7 @@ p,span{
     align-items: center;
     margin-right: 40vh;
 }
+
 .footer-phone,.footer-mail{
     display: flex;
     flex-direction: row;
@@ -418,6 +439,7 @@ p,span{
 .footer-mail{
     margin-left: 40px;
 }
+
 .callElips{
     margin-right: 5vh;
 }
