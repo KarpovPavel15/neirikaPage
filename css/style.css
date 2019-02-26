@@ -6,23 +6,25 @@ body{
     font-family: myriad-pro, sans-serif;
 
     font-weight: 700;
-
+    overflow-x: hidden;
     font-style: normal;
 
 }
 
 header{
-    height: 60%;
-    background: url("../images/header.jpg") no-repeat center top / cover;
-
+    position: absolute;
+    width: 100%;
+    height:90%;
+    background: url(../images/header.jpg) no-repeat center top / cover;
+    background-color: white;
 }
 
 .purple_background{
-    height: 97%;
+    height: 96%;
     background-color: #141434;
     opacity: 0.6;
-    border-bottom-right-radius: 90vh 10vh;
-    border-bottom-left-radius: 90vh 10vh;
+    border-bottom-right-radius: 840px 90px;
+    border-bottom-left-radius: 810px 85px;
 }
 
 
@@ -62,13 +64,27 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.order_call{
+.img-For-What{
+
+}
+.spec_order_call{
     padding: 7px;
-    margin-left: 4vh;
     border-radius: 35px;
     border: none;
-    width: 35vh;
-    height: 7vh;
+    width: 260px;
+    height: 55px;
+    background-color: #ac0042;
+    color: white;
+    font-size: 18px;
+}
+.order_call{
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 22px;
+    border-radius: 35px;
+    border: none;
+    width: 260px;
+    height: 55px;
     background-color: #ac0042;
     color: white;
     font-size: 20px;
@@ -102,30 +118,32 @@ input{
 }
 
 .second-title_neirika{
-    font-size: 70px;
+    font-size: 45px;
 }
 
 .ish_avt{
-    font-size: 45px;
-    padding-bottom: 46px;
+    font-size: 35px;
+    margin-bottom: 25px;
 }
 
 .main_content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 545px;
 }
 
 .main_content2{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: url("../images/bodypicture.jpg") no-repeat center top / cover;
     margin-top: 10vh;
-    height: 85vh;
+    height: 105vh;
     width: 100%;
-    border-bottom-right-radius: 140vh 10vh;
     border:none ;
+    top:100px;
 
 
 }
@@ -152,7 +170,6 @@ input{
 }
 
 p,span{
-    word-break: break-all;
     color: white;
     vertical-align:middle;
     display:table-cell;
@@ -190,22 +207,21 @@ p,span{
 }
 
 .what_u_have_purple_back{
-    width: 40vh;
-    height: 40vh;
-    padding: 20px;
+    width: 44vh;
+    height: 46vh;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    background: url("../images/priama6ug.png") no-repeat center top / cover;
+    background: url(../images/priama6ug.png) no-repeat center top / cover;
 }
 
 .mc5-span,.mc2-span{
     font-size: 25px;
 }
 .mc5-text,.mc2-text{
-
+    text-align: center;
 }
 .body_text{
     margin-top: 13vh;
@@ -213,19 +229,23 @@ p,span{
 
 .body_text_white{
     color:white;
+    padding-top: 50px;
 }
 .body_text_blue{
     margin-top: 13vh;
     color:#25253a;
 }
 .body_text_spec{
-    white-space: nowrap;
-    margin-left: 65vh;
+    position: relative;
+    margin-top: 160px;
+
 }
 .main_content3{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .automaton_img{
@@ -233,11 +253,20 @@ p,span{
     margin-top: 40px;
 }
 
+.head-mc3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+}
 .header_auto-call{
     display: flex;
     flex-direction: row;
     align-items: unset;
     width: 100%;
+    justify-content: center;
 }
 .trust-first,
 .trust-second,
@@ -250,7 +279,7 @@ p,span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -5vh;
+    margin-top: 100vh;
 }
 .company{
     height: 75px;
@@ -288,10 +317,11 @@ p,span{
     border-top-left-radius: 120vh 8vh;
     border-bottom-right-radius: 70vh 8vh;
     border-bottom-left-radius: 70vh 8vh;
+    position: relative;
 }
 
 .title_neirika{
-    font-size: 100px;
+    font-size: 60px;
     color: #ac0042;
 }
 
@@ -314,10 +344,10 @@ p,span{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background: url("../images/priama6ug.png") no-repeat center top / cover;
-    width: 40vh;
-    height: 43vh;
-    padding: 20px;
+    background: url(../images/priama6ug.png) no-repeat center top / cover;
+    width: 45vh;
+    height: 48vh;
+    padding: 15px;
 }
 
 .revert-call{
@@ -362,10 +392,29 @@ p,span{
     width: 25vh
 }
 
-body{
-    background: url("../images/font.png") no-repeat center top / cover;
-}
 .companyS{
     height: 50px;
     padding: 50px;
+}
+
+.pointsClass{
+    height: 350px;
+    position: relative;
+    left: 93px;
+}
+
+.bottom-mc4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.pointsClass2{
+    position: relative;
+    height: 350px;
+    top: 530px;
+    right: 70px;
 }
