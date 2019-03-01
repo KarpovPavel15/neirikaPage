@@ -18,7 +18,7 @@ header{
     background-color: white;
 }
 
-.purple_background{
+.header_area{
     height: 96%;
     background-color: #141434;
     opacity: 0.6;
@@ -32,7 +32,7 @@ a{
     word-break: break-all;
 }
 
-.top_nav-bar{
+.header_nav{
     padding: 20px;
     margin-left: 1vh;
     display: flex;
@@ -41,7 +41,7 @@ a{
     align-items: center;
 }
 
-.user-data{
+.header-content_data{
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -49,14 +49,10 @@ a{
     align-items: center;
 }
 
-.top_nav_right{
-    margin-right: 1vh;
-}
-
-.numPhone,.pass_button{
+.header_nav_btn{
     margin: 25px;
 }
-.user-data2{
+.footer-data_info{
     padding-left: 35vh;
     width: 60%;
     display: flex;
@@ -64,8 +60,7 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-
-.spec_order_call{
+.header-content_data_order{
     padding: 7px;
     border-radius: 35px;
     border: none;
@@ -75,17 +70,15 @@ a{
     color: white;
     font-size: 18px;
 }
-.order_call{
+.footer-data_info_orderCall{
     padding: 7px;
-    margin-top: 20px;
-    margin-left: 22px;
     border-radius: 35px;
     border: none;
     width: 260px;
     height: 55px;
     background-color: #ac0042;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 input{
@@ -107,7 +100,7 @@ input{
     font-family: myriad-pro, sans-serif;
 }
 
-.border{
+.header-content_border{
     height: 2px;
     background-color: white;
     width: 8vh;
@@ -115,24 +108,24 @@ input{
     margin-bottom: 20px;
 }
 
-.second-title_neirika{
+.header-content_secTitle{
     font-size: 45px;
     color:white;
 }
 
-.third-title_neirika{
+.header-content_thirdTitle{
     font-size: 35px;
     margin-bottom: 25px;
     color:gray;
 }
 
-.main_content{
+.main-content-forWhat{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main_content2{
+.main_content-whatHave{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -145,13 +138,13 @@ input{
     top:100px;
 }
 
-.fr_what {
+.main-content-forWhat_container{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.what_u_have{
+.main_content-whatHave_area_container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -160,7 +153,7 @@ input{
 }
 
 
-.fr_what_items{
+.main-content-forWhat_container_items{
     margin: 2vh;
     width: 30vh;
     display: flex;
@@ -175,23 +168,23 @@ p,span{
     text-align: center;
 }
 
-.blue{
+.main-content-forWhat_container_items_paragraphTxt{
     word-break: break-all;
     color: #25253a;
 }
 
-.magazine-img{
+.main_content-whatHave_magazine_img{
     position: relative;
     margin-left: 120vh;
     bottom: 210px;
 }
 
-.purple{
+.main-content-forWhat_container_items_spanTxt{
     color:#ab0041;
     word-break: break-all;
 }
 
-.order_call_fr-what{
+.main-content-forWhat_button{
     position: relative;
     padding: 7px;
     margin-top: 20px;
@@ -206,7 +199,7 @@ p,span{
     top: 65px;
 }
 
-.order_call_for-relative{
+.main_content-whatHave_area_order{
     position: relative;
     padding: 7px;
     top: 100px;
@@ -220,28 +213,18 @@ p,span{
     font-size: 20px;
 }
 
-.mgz{
+.main_content-whatHave_magazine{
     margin-left: 30vh;
 }
 
-.mc2-body{
+.main_content-whatHave_area{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
 }
 
-.span_txt{
-    color: #4b3049;
-}
-
-.magazine{
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-}
-
-.what_u_have_purple_back{
+.main_content-whatHave_area_container_purpleBack{
     width: 44vh;
     height: 46vh;
     padding: 40px;
@@ -252,75 +235,79 @@ p,span{
     background: url(../images/priama6ug.png) no-repeat center top / cover;
 }
 
-.mc5-span,.mc2-span{
+.main_content-additionalFeatures_backgroundArea_container_backgroundArea_spanTxt,
+.main_content-whatHave_area_container_purpleBack_spanTxt{
     font-size: 25px;
 }
 
-.mc5-text,.mc2-text{
+.main_content-additionalFeatures_backgroundArea_title,.main_content-whatHave_area_container_purpleBack_paragraphTxt{
     text-align: center;
+    display: flex;
+    flex-direction: row;
+
 }
 
-.body_text{
+.main_content-trust_title{
     margin-top: 13vh;
     color:#2e1f3b;
 }
 
-.body_text_white{
+.main_content-whatHave_area_title{
     color:white;
     top: 75px;
     position: relative;
 }
 
-.mc5_text_white{
+.main_content-additionalFeatures_backgroundArea_title_whitePart{
     color:white;
     padding-top: 40px;
     padding-bottom: 10px;
 }
 
-.mc5_text_red{
+.main_content-additionalFeatures_backgroundArea_title_redPart{
     color:#ac0042;
     padding-top: 40px;
     padding-bottom: 10px;
     padding-right: 10px;
 }
 
-.mc5_text{
+.main_content-additionalFeatures_backgroundArea_container_backgroundArea_paragraphTxt{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.body_text_blue{
+.main-content-forWhat_title{
     margin-top: 13vh;
     color:#2e1f3b;
 }
 
-.body_text_spec{
+.main_content-autoCall_title_whitePart{
     position: relative;
     margin-top: 160px;
     color:#141434;
 }
 
-.body_text_spec_red{
+.main_content-autoCall_title_redPart{
     position: relative;
     margin-top: 160px;
     color:#ac0042;
     right: 10px;
 }
 
-.main_content3{
+.main_content-autoCall{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.automaton_img{
+.main_content-autoCall_img{
     height: 46vh;
     margin-top: 40px;
 }
 
-.head-mc3{
+.main_content-autoCall_pointsArea{
     width: 100%;
     display: flex;
     align-items: center;
@@ -329,7 +316,7 @@ p,span{
     position: absolute;
 }
 
-.header_auto-call{
+.main_content-autoCall_title{
     display: flex;
     flex-direction: row;
     align-items: unset;
@@ -337,32 +324,33 @@ p,span{
     justify-content: center;
 }
 
-.trust-first,
-.trust-second,
-.trust-third{
+.main_content-trust_firstRow,
+.main_content-trust_secondRow,
+.main_content-trust_thirdRow{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.main_content4{
+.main_content-trust{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.company{
+.main_content-trust_firstRow_company,
+.main_content-trust_thirdRow_company{
     height: 75px;
     padding: 40px;
 }
 
-.border2{
+.main_content-autoCall_borderArea_borderOptions{
     height: 2px;
     width: 105vh;
     background-color:gray;
 }
 
-.span-second{
+.main_content-autoCall_borderArea{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -377,13 +365,13 @@ p,span{
     margin-right: 140vh;
 }
 
-.dop_vozm-Neirika{
+.main_content-additionalFeatures_backgroundArea_container{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.main_content5{
+.main_content-additionalFeatures{
     background: url("../images/futerpicture3.jpg") no-repeat center top / cover;
     margin-top: 10vh;
     height: 130vh;
@@ -394,12 +382,12 @@ p,span{
     position: relative;
 }
 
-.title_neirika{
+.header-content_title{
     font-size: 60px;
     color: #ac0042;
 }
 
-.purple_background2{
+.main_content-additionalFeatures_backgroundArea{
     margin-top: 25vh;
     display: flex;
     flex-direction: column;
@@ -413,7 +401,7 @@ p,span{
     border-bottom-left-radius: 140vh 10vh;
 }
 
-.dop_vozm-Neirika_purple_back{
+.main_content-additionalFeatures_backgroundArea_container_backgroundArea{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -424,7 +412,7 @@ p,span{
     padding: 15px;
 }
 
-.revert-call{
+.footer-data{
     padding: 5vh;
 }
 
@@ -438,14 +426,14 @@ p,span{
     padding: 10vh 10vh 5vh 0vh;
 }
 
-.cont-inf{
+.footer-main_infoNeirika{
     display: flex;
     flex-direction:column;
     align-items: center;
     margin-right: 40vh;
 }
 
-.footer-phone,.footer-mail{
+.footer-main_info_Neirika_phone,.footer-main_info_Neirika_mail{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -456,31 +444,31 @@ p,span{
     padding-top: 5px;
 }
 
-.callElips{
+.footer-main_info_Neirika_phone_elips{
     margin-right: 5vh;
 }
 
-.messageImg{
+.footer-main_info_Neirika_mail_img{
     margin-right: 2vh;
 }
 
-.neirika2{
+.footer-main_img{
     margin-left: 43vh;
     height: 10vh;
 }
 
-.companyS{
+.main_content-trust_secondRow_companyS{
     height: 50px;
     padding: 50px;
 }
 
-.pointsClass{
+.main_content-autoCall_pointsArea_imgOptions{
     height: 350px;
     position: relative;
     left: 93px;
 }
 
-.bottom-mc4{
+.main_content-trust_pointsArea{
     width: 100%;
     display: flex;
     align-items: center;
@@ -489,7 +477,7 @@ p,span{
     position: absolute;
 }
 
-.pointsClass2{
+.main_content-trust_pointsArea_imgOption{
     position: relative;
     height: 350px;
     top: 620px;
