@@ -26,49 +26,71 @@ header{
     border-bottom-left-radius: 810px 85px;
 }
 
+.header_nav_pictureArea{
+    width: 32%;
+}
+.header_nav_login{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_nav_login_number{
+    font-size: 15px;
+    width: 40%;
+    padding-right: 15%;
+}
+
+.header_nav_login_btn{
+    width: 15%;
+    padding-left: 5%;
+}
 
 a{
     color: white;
-    word-break: break-all;
 }
 
 .header_nav{
     padding: 20px;
-    margin-left: 1vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-content_data{
-    width: 50%;
+.header_data{
+    height: 30%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_nav_btn{
-    margin: 25px;
+.header_data_area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
 }
 .footer-data_info{
-    padding-left: 35vh;
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .header-content_data_order{
-    padding: 7px;
     border-radius: 35px;
     border: none;
-    width: 260px;
     height: 55px;
     background-color: #ac0042;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
+    margin: 5px;
+    width: 215px;
 }
 .footer-data_info_orderCall{
     padding: 7px;
@@ -82,40 +104,41 @@ a{
 }
 
 input{
-    margin: 20px;
     border-radius: 35px;
-    width: 35vh;
-    height: 7vh;
+    width: 190px;
+    height: 18px;
     opacity: 0.5;
-    border-style: solid ;
-    border-color: gray ;
-    padding-left: 20px;
+    border-style: solid;
+    border-color: gray;
+    padding: 15px;
+    margin: 15px;
 }
 
 .header-content{
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-family: myriad-pro, sans-serif;
+    justify-content: space-around;
 }
 
 .header-content_border{
     height: 2px;
-    background-color: white;
-    width: 8vh;
+    background-color: #8e8f9a;
+    width: 8%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .header-content_secTitle{
-    font-size: 45px;
+    font-size: 50px;
     color:white;
 }
 
 .header-content_thirdTitle{
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 27px;
     color:gray;
 }
 
@@ -169,7 +192,6 @@ p,span{
 }
 
 .main-content-forWhat_container_items_paragraphTxt{
-    word-break: break-all;
     color: #25253a;
 }
 
@@ -177,11 +199,11 @@ p,span{
     position: relative;
     margin-left: 120vh;
     bottom: 210px;
+    padding-left: 10%;
 }
 
 .main-content-forWhat_container_items_spanTxt{
     color:#ab0041;
-    word-break: break-all;
 }
 
 .main-content-forWhat_button{
@@ -214,7 +236,7 @@ p,span{
 }
 
 .main_content-whatHave_magazine{
-    margin-left: 30vh;
+
 }
 
 .main_content-whatHave_area{
@@ -303,8 +325,8 @@ p,span{
 }
 
 .main_content-autoCall_img{
-    height: 46vh;
     margin-top: 40px;
+    max-width: 100%;
 }
 
 .main_content-autoCall_pointsArea{
@@ -340,7 +362,7 @@ p,span{
 
 .main_content-trust_firstRow_company,
 .main_content-trust_thirdRow_company{
-    height: 75px;
+    max-width: 100%;
     padding: 40px;
 }
 
@@ -420,9 +442,9 @@ p,span{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: url("../images/pramoug.png") no-repeat center top / cover;
-    width: 95%;
+    width: 100%;
     padding: 10vh 10vh 5vh 0vh;
 }
 
@@ -430,7 +452,6 @@ p,span{
     display: flex;
     flex-direction:column;
     align-items: center;
-    margin-right: 40vh;
 }
 
 .footer-main_info_Neirika_phone,.footer-main_info_Neirika_mail{
@@ -453,12 +474,11 @@ p,span{
 }
 
 .footer-main_img{
-    margin-left: 43vh;
     height: 10vh;
 }
 
 .main_content-trust_secondRow_companyS{
-    height: 50px;
+    max-width: 100%;
     padding: 50px;
 }
 
@@ -482,4 +502,16 @@ p,span{
     height: 350px;
     top: 620px;
     right: 70px;
+}
+
+.header_nav_pictureArea_picture,
+.header-content_picture,
+.main-content-forWhat_container_items_picture ,
+.main_content-whatHave_magazine_img,
+.main_content-autoCall_img ,
+.main_content-additionalFeatures_backgroundArea_container_backgroundArea_picture,
+.footer-main_img,
+.footer-main_info_Neirika_phone_elips,
+.footer-main_info_Neirika_mail_img{
+    overflow: hidden;
 }
