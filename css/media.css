@@ -321,6 +321,26 @@
         position: relative;
         left: 93px;
     }
+    .footer-main_img {
+        height: 40px;
+    }
+    .footer-main_info_Neirika_phone_elips {
+        margin-right: 40px;
+        height: 20px;
+    }
+
+    .footer-main_info_Neirika_phone_numb {
+        margin-right: 50px;
+        font-size: 15px;
+        width: 118px;
+    }
+    .footer-main_info_Neirika_mail_img {
+        margin-right: 10px;
+        height: 15px;
+    }
+    .footer-main_info_Neirika_mail_text{
+        font-size: 15px;
+    }
 
 }
 
@@ -512,8 +532,10 @@
         margin-right: 2vh;
         height: 15px;
     }
-    .footer-main_info_Neirika_phone_numb{
-
+    .footer-main_info_Neirika_phone_numb {
+        margin-right: 50px;
+        font-size: 11px;
+        width: 86px;
     }
 }
 /*@media screen and (max-width: 750px){*/
