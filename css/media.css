@@ -225,8 +225,7 @@
         flex-direction: column;
         align-items: center;
         background: url(../images/bodypicture.jpg) no-repeat center top / cover;
-        margin-top: 10vh;
-        height: 180vh;
+        height: 1430px;;
         width: 100%;
         border: none;
         top: 100px;
@@ -369,15 +368,9 @@
     }
     .main_content-trust_pointsArea_imgOption {
         position: relative;
-        height: 350px;
-        right: 70px;
-        top: 150vh;
-    }
-    .main_content-trust_pointsArea_imgOption {
-        position: relative;
         height: 470px;
         right: 70px;
-        top: 150vh;
+        top: 130vh;
     }
 }
 @media screen  and (max-width: 410px){
@@ -468,7 +461,7 @@
     .main_content-additionalFeatures {
         background: url(../images/futerpicture3.jpg) no-repeat center top / cover;
         margin-top: 10vh;
-        height: 190vh;
+        height: 1500px;
         border-top-right-radius: 120vh 8vh;
         border-top-left-radius: 120vh 8vh;
         border-bottom-right-radius: 70vh 8vh;
@@ -509,7 +502,7 @@
         position: relative;
         height: 350px;
         right: 70px;
-        top: 155vh;
+        top: 140vh;
     }
 }
 @media screen and (max-width: 900px){
@@ -646,7 +639,7 @@
         width: 216px;
     }
     .header_nav_login {
-        width: 35%;
+        width: 45%;
         display: flex;
         justify-content: flex-end;
     }
@@ -691,7 +684,7 @@
 @media screen and (min-width: 690px) and (max-width: 810px ){
     input {
         border-radius: 35px;
-        width: 180px;
+        width: 160px;
         height: 18px;
         opacity: 0.5;
         border-style: solid;
@@ -713,7 +706,7 @@
         padding: 7px;
         border-radius: 35px;
         border: none;
-        width: 230px;
+        width: 200px;
         height: 45px;
         background-color: #ac0042;
         color: white;
