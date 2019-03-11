@@ -380,7 +380,7 @@
     }
     .main_content-additionalFeatures_backgroundArea_title_redPart {
         color: #ac0042;
-        padding-top: 1px;
+        padding-top:70px;
         padding-bottom: 10px;
         padding-right: 10px;
         font-size: 20px;
@@ -390,7 +390,6 @@
         display: flex;
         flex-direction: column;
         font-size: 20px;
-        margin-top: 40px;
     }
 
 }
@@ -461,7 +460,7 @@
     .main_content-additionalFeatures {
         background: url(../images/bgDop.png) no-repeat center top / cover;
         margin-top: 10vh;
-        height: 1635px;
+        height: 1730px;
         border-top-right-radius: 120vh 8vh;
         border-top-left-radius: 120vh 8vh;
         border-bottom-right-radius: 70vh 8vh;
