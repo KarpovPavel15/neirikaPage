@@ -370,9 +370,9 @@
     }
     .main_content-trust_pointsArea_imgOption {
         position: relative;
-        height: 470px;
+        height: 345px;
         right: 70px;
-        top: 1220px;
+        top: 1325px;
     }
 }
 @media screen  and (max-width: 410px){
@@ -663,7 +663,7 @@
     input {
         border-radius: 35px;
         width: 85px;
-        height: 25px;
+        height: 15px;
         opacity: 0.5;
         border-style: solid;
         border-color: gray;
@@ -678,7 +678,7 @@
         height: 45px;
         background-color: #ac0042;
         color: white;
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 @media screen and (min-width:1200px ) and (max-width: 1400px){
@@ -730,7 +730,8 @@
         justify-content: flex-end;
     }
 }
-@media screen and (min-width:320px ) and (max-width: 960px){
+
+@media screen and (min-width:320px ) and (max-width: 960px) {
     .header_nav_topNav{
         display: flex;
         align-items: center;
@@ -835,13 +836,26 @@
         opacity: 1;
         transform: rotate(-45deg) translate(0, -1px);
     }
+    #menu li
+    {
+        padding: 10px 0;
+        font-size: 22px;
+    }
 
+    #menuToggle input:checked ~ ul
+    {
+        transform: scale(1.0, 1.0);
+        opacity: 0.6;
+    }
+
+}
+@media screen and (min-width:780px ) and (max-width: 960px){
 
     #menu
     {
         position: absolute;
         width: 300px;
-        margin: -100px 0 0 0;
+        margin: -120px 0 0 0;
         padding: 50px;
         padding-top: 125px;
         right: -100px;
@@ -855,20 +869,8 @@
 
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
-
-    #menu li
-    {
-        padding: 10px 0;
-        font-size: 22px;
-    }
-
-    #menuToggle input:checked ~ ul
-    {
-        transform: scale(1.0, 1.0);
-        opacity: 0.6;
-    }
 }
-@media screen and (min-width: 480px) and (max-width: 639px){
+@media screen and (min-width: 650px) and (max-width: 779px){
     #menu li {
         padding: 10px 0;
         font-size: 17px;
@@ -876,7 +878,47 @@
     #menu {
         position: absolute;
         width: 240px;
-        margin: -100px 0 0 0;
+        margin: -120px 0 0 0;
+        padding: 50px;
+        padding-top: 125px;
+        right: -100px;
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+}
+@media screen and (min-width: 570px) and (max-width: 649px){
+    #menu li {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    #menu {
+        position: absolute;
+        width: 200px;
+        margin: -120px 0 0 0;
+        padding: 50px;
+        padding-top: 125px;
+        right: -100px;
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 569px){
+    #menu li {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    #menu {
+        position: absolute;
+        width: 190px;
+        margin: -120px 0 0 0;
         padding: 50px;
         padding-top: 125px;
         right: -100px;
@@ -896,7 +938,7 @@
     #menu {
         position: absolute;
         width: 180px;
-        margin: -100px 0 0 0;
+        margin: -120px 0 0 0;
         padding: 50px;
         padding-top: 125px;
         right: -100px;

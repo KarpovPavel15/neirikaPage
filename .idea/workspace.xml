@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e2cb049-5ebb-4881-9585-3ab1646e4a83" name="Default Changelist" comment="neirikaPage/11/03">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="9e2cb049-5ebb-4881-9585-3ab1646e4a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/x2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/x2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/x3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/x3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/x4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/x4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="562">
-                  <caret line="211" column="92" selection-start-line="211" selection-start-column="92" selection-end-line="211" selection-end-column="92" />
+                <state relative-caret-position="374">
+                  <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -83,11 +77,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="101">
-                  <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+                <state relative-caret-position="-7632">
+                  <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -122,11 +116,11 @@
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="407">
-                  <caret line="464" column="25" lean-forward="true" selection-start-line="464" selection-start-column="25" selection-end-line="464" selection-end-column="25" />
+                <state relative-caret-position="492">
+                  <caret line="374" column="20" selection-start-line="374" selection-start-column="20" selection-end-line="374" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -145,15 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header_a</find>
-      <find>main_content-whatHave_magazine</find>
-      <find>footer-main_info_Neirika_mail_text</find>
-      <find>7</find>
-      <find>.main_content-whatHave</find>
-      <find>810</find>
-      <find>.header_area</find>
-      <find>250</find>
-      <find>main-content-forWhat_container_items_picture</find>
       <find>.main-content-forWhat_title</find>
       <find>x1.png</find>
       <find>900</find>
@@ -162,7 +147,6 @@
       <find>.main_content-additionalFeatures_backgroundArea_container_backgroundArea</find>
       <find>.main_content-additionalFeatures</find>
       <find>main_content-additionalFeatures_backgroundArea_title_redPart</find>
-      <find>1000</find>
       <find>950</find>
       <find>.main_content-additionalFeatures_backgroundArea</find>
       <find>.footer-main_info_Neirika_phone_elips</find>
@@ -174,7 +158,17 @@
       <find>op</find>
       <find>opa</find>
       <find>border-top-ri</find>
+      <find>bodyp</find>
+      <find>.header_nav_login</find>
       <find>760</find>
+      <find>1000</find>
+      <find>700</find>
+      <find>8px</find>
+      <find>600</find>
+      <find>.header_nav_login_number</find>
+      <find>menu</find>
+      <find>menuToggle</find>
+      <find>960</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,8 +183,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
@@ -277,7 +271,7 @@
       <workItem from="1551435029593" duration="11445000" />
       <workItem from="1551679197012" duration="23552000" />
       <workItem from="1551765236066" duration="47896000" />
-      <workItem from="1551961600700" duration="10643000" />
+      <workItem from="1551961600700" duration="19348000" />
     </task>
     <task id="LOCAL-00001" summary="neirika(no final version)">
       <created>1550703244576</created>
@@ -384,17 +378,31 @@
       <option name="project" value="LOCAL" />
       <updated>1551961613254</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="neirikaPage/11/03">
+      <created>1552293966611</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552293966611</updated>
+    </task>
+    <task id="LOCAL-00017" summary="neirikaPage/11/03/menuHumburger">
+      <created>1552301940923</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552301940923</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233669000" />
+    <option name="totallyTimeSpent" value="242374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.057428874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16227607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -490,7 +498,9 @@
     <MESSAGE value="neirikaPage/@media05/03" />
     <MESSAGE value="neirikaPage/@media06/03" />
     <MESSAGE value="neirikaPage/@media07/03" />
-    <option name="LAST_COMMIT_MESSAGE" value="neirikaPage/@media07/03" />
+    <MESSAGE value="neirikaPage/11/03" />
+    <MESSAGE value="neirikaPage/11/03/menuHumburger" />
+    <option name="LAST_COMMIT_MESSAGE" value="neirikaPage/11/03/menuHumburger" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -586,10 +596,13 @@
     <entry file="file://$PROJECT_DIR$/images/x1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/bodyp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="211" column="92" selection-start-line="211" selection-start-column="92" selection-end-line="211" selection-end-column="92" />
+        <state relative-caret-position="374">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -605,17 +618,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="464" column="25" lean-forward="true" selection-start-line="464" selection-start-column="25" selection-end-line="464" selection-end-column="25" />
+        <state relative-caret-position="-7632">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="492">
+          <caret line="374" column="20" selection-start-line="374" selection-start-column="20" selection-end-line="374" selection-end-column="20" />
         </state>
       </provider>
     </entry>
