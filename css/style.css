@@ -26,13 +26,12 @@ header{
     width: 32%;
 }
 .header_nav_login{
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: flex-end;
 }
 
 .header_nav_login_number{
-    font-size: 15px;
     width: 40%;
 }
 
@@ -519,4 +518,7 @@ p,span{
 }
 .main-content-forWhat_container_items_picture{
     margin-bottom: 15px;
+}
+.header_nav_topNav{
+    display: none;
 }
