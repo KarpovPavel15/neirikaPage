@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e2cb049-5ebb-4881-9585-3ab1646e4a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+                <state relative-caret-position="527">
+                  <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -39,9 +38,13 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/media.css">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-5680">
+                  <caret line="541" column="1" selection-start-line="541" selection-start-column="1" selection-end-line="541" selection-end-column="1" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -80,8 +83,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7632">
-                  <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+                <state relative-caret-position="271">
+                  <caret line="209" column="28" selection-start-line="209" selection-end-line="209" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -119,8 +122,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="492">
-                  <caret line="374" column="20" selection-start-line="374" selection-start-column="20" selection-end-line="374" selection-end-column="20" />
+                <state relative-caret-position="4503">
+                  <caret line="838" column="21" selection-start-line="838" selection-start-column="21" selection-end-line="838" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -139,13 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.main-content-forWhat_title</find>
-      <find>x1.png</find>
-      <find>900</find>
-      <find>.main_content-whatHave_area_container_purpleBack_paragraphTxt</find>
-      <find>1250</find>
-      <find>.main_content-additionalFeatures_backgroundArea_container_backgroundArea</find>
-      <find>.main_content-additionalFeatures</find>
       <find>main_content-additionalFeatures_backgroundArea_title_redPart</find>
       <find>950</find>
       <find>.main_content-additionalFeatures_backgroundArea</find>
@@ -158,7 +154,6 @@
       <find>op</find>
       <find>opa</find>
       <find>border-top-ri</find>
-      <find>bodyp</find>
       <find>.header_nav_login</find>
       <find>760</find>
       <find>1000</find>
@@ -169,6 +164,14 @@
       <find>menu</find>
       <find>menuToggle</find>
       <find>960</find>
+      <find>input</find>
+      <find>.main-content-forWhat_container_items</find>
+      <find>main-content-forWhat_container</find>
+      <find>.main_content-additionalFeatures_backgroundArea_container_backgroundArea</find>
+      <find>bodyp</find>
+      <find>main_content-additionalFeatures_backgroundArea_container</find>
+      <find>.main_content-whatHave_area_order</find>
+      <find>.main-content-forWhat_button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,8 +186,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
@@ -271,7 +274,7 @@
       <workItem from="1551435029593" duration="11445000" />
       <workItem from="1551679197012" duration="23552000" />
       <workItem from="1551765236066" duration="47896000" />
-      <workItem from="1551961600700" duration="19348000" />
+      <workItem from="1551961600700" duration="24909000" />
     </task>
     <task id="LOCAL-00001" summary="neirika(no final version)">
       <created>1550703244576</created>
@@ -392,11 +395,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552301940923</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="neirikaPage/11/03/menuHumburger">
+      <created>1552304082135</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552304082135</updated>
+    </task>
+    <task id="LOCAL-00019" summary="neirikaPage/11/03/finalyVersion">
+      <created>1552309339970</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552309339970</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242374000" />
+    <option name="totallyTimeSpent" value="247935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -500,7 +517,8 @@
     <MESSAGE value="neirikaPage/@media07/03" />
     <MESSAGE value="neirikaPage/11/03" />
     <MESSAGE value="neirikaPage/11/03/menuHumburger" />
-    <option name="LAST_COMMIT_MESSAGE" value="neirikaPage/11/03/menuHumburger" />
+    <MESSAGE value="neirikaPage/11/03/finalyVersion" />
+    <option name="LAST_COMMIT_MESSAGE" value="neirikaPage/11/03/finalyVersion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -601,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="527">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -620,15 +638,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7632">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="271">
+          <caret line="209" column="28" selection-start-line="209" selection-end-line="209" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="374" column="20" selection-start-line="374" selection-start-column="20" selection-end-line="374" selection-end-column="20" />
+        <state relative-caret-position="4503">
+          <caret line="838" column="21" selection-start-line="838" selection-start-column="21" selection-end-line="838" selection-end-column="21" />
         </state>
       </provider>
     </entry>
