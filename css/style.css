@@ -211,7 +211,7 @@ p,span{
     position: relative;
     border-radius: 35px;
     border: none;
-    width: 260px;
+    width: 45%;
     height: 55px;
     background-color: #ac0042;
     color: white;
@@ -224,7 +224,7 @@ p,span{
     top: 150px;
     border-radius: 35px;
     border: none;
-    width: 260px;
+    width: 45%;
     height: 55px;
     background-color: #ac0042;
     color: white;
