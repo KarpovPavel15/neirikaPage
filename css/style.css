@@ -266,24 +266,26 @@ p,span{
     margin-top: 13vh;
     padding-bottom: 25px;
     color:#2e1f3b;
+    font-size: 30px;
 }
 
 .main_content-whatHave_area_title{
     color:white;
     top: 50px;
     position: relative;
+    font-size: 30px;
 }
 
 .main_content-additionalFeatures_backgroundArea_title_whitePart{
     color:white;
-    padding-top: 40px;
+    padding-top: 70px;
     padding-bottom: 10px;
     font-size: 30px;
 }
 
 .main_content-additionalFeatures_backgroundArea_title_redPart{
     color:#ac0042;
-    padding-top: 40px;
+    padding-top: 70px;
     padding-bottom: 10px;
     padding-right: 10px;
     font-size: 30px;
@@ -306,6 +308,7 @@ p,span{
     position: relative;
     margin-top: 160px;
     color:#141434;
+    font-size: 30px;
 }
 
 .main_content-autoCall_title_redPart{
@@ -313,6 +316,7 @@ p,span{
     margin-top: 160px;
     color:#ac0042;
     right: 10px;
+    font-size: 30px;
 }
 
 .main_content-autoCall{
