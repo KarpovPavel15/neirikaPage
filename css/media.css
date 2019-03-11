@@ -95,7 +95,7 @@
         position: absolute;
         max-width: 100%;
         height: 10%;
-        bottom: 93%;
+        bottom: 97%;
     }
 
 }
@@ -120,6 +120,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 460px;
     }
     .main-content-forWhat_container {
         display: flex;
@@ -151,12 +152,11 @@
 @media screen and (max-width: 1250px){
     .main_content-whatHave_area_container_purpleBack {
         width: 300px;
-        height: 300px;
+        height: 320px;
         padding: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
         background: url(../images/priama6ug.png) no-repeat center top / cover;
     }
     .main_content-whatHave {
@@ -177,12 +177,11 @@
 @media screen  and (max-width: 1100px){
     .main_content-whatHave_area_container_purpleBack {
         width: 283px;
-        height: 283px;
+        height: 310px;
         padding: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
         background: url(../images/priama6ug.png) no-repeat center top / cover;
     }
     .main_content-whatHave_area_order {
@@ -225,7 +224,7 @@
         flex-direction: column;
         align-items: center;
         background: url(../images/bodypicture.jpg) no-repeat center top / cover;
-        height: 1430px;;
+        height: 1500px;
         width: 100%;
         border: none;
         top: 100px;
@@ -248,13 +247,13 @@
         position: relative;
         margin-top: 160px;
         color: #ac0042;
-        font-size: 20px;
+        font-size: 24px;
     }
     .main_content-autoCall_title_whitePart {
         position: relative;
         margin-top: 160px;
         color: #141434;
-        font-size: 20px;
+        font-size: 24px;
     }
     .main_content-autoCall_borderArea_borderOptions {
         height: 2px;
@@ -288,27 +287,34 @@
         position: relative;
         margin-top: 160px;
         color: #141434;
-        font-size: 15px;
+        font-size: 19px;
     }
     .main_content-autoCall_title_redPart {
         position: relative;
         margin-top: 160px;
         color: #ac0042;
-        font-size: 15px;
+        font-size: 19px;
     }
 }
 @media screen and (max-width: 500px){
     .main_content-autoCall_title_whitePart {
         position: relative;
-        margin-top: 160px;
         color: #141434;
-        font-size: 11px;
+        font-size: 20px;
+        margin-top: 1px;
     }
     .main_content-autoCall_title_redPart {
         position: relative;
         margin-top: 160px;
         color: #ac0042;
-        font-size: 11px;
+        font-size: 20px;
+    }
+    .main_content-autoCall_title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .main_content-autoCall_borderArea_borderOptions {
         height: 2px;
@@ -324,7 +330,7 @@
         height: 40px;
     }
     .footer-main_info_Neirika_phone_elips {
-        margin-right: 40px;
+        margin-right: 20px;
         height: 20px;
     }
 
@@ -356,7 +362,7 @@
     .main_content-trust_pointsArea_imgOption {
         position: relative;
         height: 350px;
-        top: 540px;
+        top: 560px;
         right: 70px;
     }
 }
@@ -370,7 +376,7 @@
         position: relative;
         height: 470px;
         right: 70px;
-        top: 130vh;
+        top: 1220px;
     }
 }
 @media screen  and (max-width: 410px){
@@ -407,13 +413,9 @@
         padding: 7px;
     }
     .main_content-additionalFeatures {
-        background: url(../images/futerpicture3.jpg) no-repeat center top / cover;
+        background: url(../images/bgDop.png) no-repeat center top / cover;
         margin-top: 10vh;
         height: 115vh;
-        border-top-right-radius: 120vh 8vh;
-        border-top-left-radius: 120vh 8vh;
-        border-bottom-right-radius: 70vh 8vh;
-        border-bottom-left-radius: 70vh 8vh;
         position: relative;
     }
     .main_content-additionalFeatures_backgroundArea_title_redPart {
@@ -421,13 +423,13 @@
         padding-top: 55px;
         padding-bottom: 10px;
         padding-right: 10px;
-        font-size: 20px;
+        font-size: 22px;
     }
     .main_content-additionalFeatures_backgroundArea_title_whitePart {
         color: white;
         padding-top: 55px;
         padding-bottom: 10px;
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 850px){
@@ -442,7 +444,7 @@
         padding: 5px;
     }
     .main_content-additionalFeatures {
-        background: url(../images/futerpicture3.jpg) no-repeat center top / cover;
+        background: url(../images/bgDop.png) no-repeat center top / cover;
         margin-top: 10vh;
         height: 110vh;
         border-top-right-radius: 120vh 8vh;
@@ -459,9 +461,9 @@
         align-items: center;
     }
     .main_content-additionalFeatures {
-        background: url(../images/futerpicture3.jpg) no-repeat center top / cover;
+        background: url(../images/bgDop.png) no-repeat center top / cover;
         margin-top: 10vh;
-        height: 1500px;
+        height: 1590px;
         border-top-right-radius: 120vh 8vh;
         border-top-left-radius: 120vh 8vh;
         border-bottom-right-radius: 70vh 8vh;
@@ -472,37 +474,43 @@
 @media screen and (max-width: 530px) {
     .main_content-additionalFeatures_backgroundArea_title_whitePart {
         color: white;
-        padding-top: 55px;
-        padding-bottom: 10px;
-        font-size: 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 20px;
     }
     .main_content-additionalFeatures_backgroundArea_title_redPart {
         color: #ac0042;
-        padding-top: 55px;
+        padding-top: 1px;
         padding-bottom: 10px;
         padding-right: 10px;
-        font-size: 15px;
+        font-size: 20px;
     }
+    .main_content-additionalFeatures_backgroundArea_title, .main_content-whatHave_area_container_purpleBack_paragraphTxt {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
 }
 @media screen and (max-width: 430px){
     .main_content-additionalFeatures_backgroundArea_title_whitePart {
         color: white;
-        padding-top: 55px;
         padding-bottom: 10px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .main_content-additionalFeatures_backgroundArea_title_redPart {
         color: #ac0042;
-        padding-top: 55px;
         padding-bottom: 10px;
         padding-right: 10px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .main_content-trust_pointsArea_imgOption {
         position: relative;
         height: 350px;
         right: 70px;
-        top: 140vh;
+        top: 1280px;
     }
 }
 @media screen and (max-width: 900px){
@@ -515,7 +523,7 @@
         height: 4vh;
     }
     .footer-main_info_Neirika_phone_elips {
-        margin-right: 4vh;
+        margin-right: 20px;
         height: 20px;
     }
     .footer-main_info_Neirika_mail_text{
@@ -531,51 +539,6 @@
         width: 86px;
     }
 }
-/*@media screen and (max-width: 750px){*/
-    /*input {*/
-        /*border-radius: 35px;*/
-        /*width: 120px;*/
-        /*height: 15px;*/
-        /*opacity: 0.5;*/
-        /*border-style: solid;*/
-        /*border-color: gray;*/
-        /*padding: 12px;*/
-        /*margin: 6px;*/
-    /*}*/
-    /*.footer-data_info_orderCall {*/
-        /*padding: 7px;*/
-        /*border-radius: 35px;*/
-        /*border: none;*/
-        /*width: 140px;*/
-        /*height: 45px;*/
-        /*background-color: #ac0042;*/
-        /*color: white;*/
-        /*font-size: 14px;*/
-    /*}*/
-/*}*/
-@media screen and (max-width: 600px){
-    /*.name, .telephone {*/
-        /*border-radius: 35px;*/
-        /*width: 110px;*/
-        /*height: 14px;*/
-        /*opacity: 0.5;*/
-        /*border-style: solid;*/
-        /*border-color: gray;*/
-        /*padding: 15px;*/
-        /*margin: 12px;*/
-    /*}*/
-    /*.header-content_data_order {*/
-        /*border-radius: 35px;*/
-        /*border: none;*/
-        /*height: 55px;*/
-        /*background-color: #ac0042;*/
-        /*color: white;*/
-        /*font-size: 15px;*/
-        /*margin: 5px;*/
-        /*width: 135px;*/
-    /*}*/
-}
-
 
 @media screen and (max-width: 600px){
     .header_nav_login_number {
@@ -583,29 +546,6 @@
     }
 }
 
-@media screen and (max-width: 600px){
-    /*.header-content_data_order {*/
-        /*border-radius: 35px;*/
-        /*border: none;*/
-        /*height: 50px;*/
-        /*background-color: #ac0042;*/
-        /*color: white;*/
-        /*font-size: 15px;*/
-        /*margin: 5px;*/
-        /*width: 210px;*/
-    /*}*/
-    /*.name, .telephone {*/
-        /*border-radius: 35px;*/
-        /*width: 180px;*/
-        /*height: 14px;*/
-        /*opacity: 0.5;*/
-        /*border-style: solid;*/
-        /*border-color: gray;*/
-        /*padding: 14px;*/
-        /*margin: 7px;*/
-    /*}*/
-
-}
 @media screen and (min-width:250px) and (max-width: 439px)
 {
     .footer-data_info_orderCall {
@@ -738,7 +678,7 @@
         padding: 7px;
         border-radius: 35px;
         border: none;
-        width: 127px;
+        width: 120px;
         height: 45px;
         background-color: #ac0042;
         color: white;
