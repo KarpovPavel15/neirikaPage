@@ -205,6 +205,7 @@ p,span{
 
 .main-content-forWhat_container_items_spanTxt{
     color:#ab0041;
+    padding-bottom: 20px;
 }
 
 .main-content-forWhat_button{
@@ -249,10 +250,17 @@ p,span{
     align-items: center;
     background: url(../images/priama6ug.png) no-repeat center top / cover;
 }
+*{
+    outline: none;
+}
+button:hover{
+    cursor: pointer
+}
 
 .main_content-additionalFeatures_backgroundArea_container_backgroundArea_spanTxt,
 .main_content-whatHave_area_container_purpleBack_spanTxt{
     font-size: 25px;
+    padding-bottom: 30px;
 }
 
 .main_content-additionalFeatures_backgroundArea_title,.main_content-whatHave_area_container_purpleBack_paragraphTxt{
@@ -302,6 +310,7 @@ p,span{
     margin-top: 110px;
     margin-bottom: 50px;
     color:#2e1f3b;
+    font-size: 30px;
 }
 
 .main_content-autoCall_title_whitePart{
